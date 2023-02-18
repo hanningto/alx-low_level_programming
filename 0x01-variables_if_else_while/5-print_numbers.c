@@ -1,9 +1,9 @@
 #include <stdio.h>
- /**
-  * main - prints numbers on screen
-  *
-  * Return: Always 0 (Success)
-  */
+/**
+ * main - Enter point
+ *
+ * Return:always 0 (success)
+ */
 
 int main(void)
 {

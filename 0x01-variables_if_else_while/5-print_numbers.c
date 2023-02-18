@@ -1,9 +1,8 @@
-#include<stdio.h>
-
+#include <stdio.h>
  /**
   * main - prints numbers on screen
   *
-  * Return: 0
+  * Return: Always 0 (Success)
   */
 
 int main(void)

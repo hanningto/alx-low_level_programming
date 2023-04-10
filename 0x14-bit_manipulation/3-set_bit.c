@@ -1,18 +1,19 @@
 #include "main.h"
+
 /**
-*setting_bit - it will set a bit at position  1
-*@a: number to be used
-*@id: position to be set
+*set_bit - sets a bit at position to 1
+*@n: number to be used
+*@index: index to be set
 *
-*Return: 1 for success, -1 for failure
+*Return: 1 on success, -1 on failure
 */
 
-int setting_bit(unsigned long int *n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
-	if (a == NULL || (id > (sizeof(unsigned long int) * 8) - 1))
+	if (n == NULL || (index > (sizeof(unsigned long int) * 8) - 1))
 		return (-1);
 
-	*a |= (1 << id);
+	*n |= (1 << index);
 	return (1);
 }
 
